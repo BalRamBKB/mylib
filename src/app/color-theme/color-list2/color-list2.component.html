@@ -1,0 +1,10 @@
+<div class="color">
+    <h2 class="heading">Secondary Color</h2>
+    <div class="colors">
+        <app-color2
+        *ngFor="let color of colors"
+        (colorSelect)="onColorSelected(color)"
+        [color2]="color"></app-color2>
+    </div>
+</div>
+

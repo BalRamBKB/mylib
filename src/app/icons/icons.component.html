@@ -1,0 +1,11 @@
+<div>
+    <app-icon-list (iconWasSelected)="selectedIcon = $event"></app-icon-list>
+</div>
+<div>
+    <app-icon-detail 
+    *ngIf="selectedIcon; else infoText"
+    [iconDetail]="selectedIcon"></app-icon-detail>
+    <ng-template #infoText>
+        <p>Please select icon</p>
+    </ng-template>
+</div>

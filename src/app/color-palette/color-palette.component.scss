@@ -1,0 +1,56 @@
+$colors: 
+white,
+silver,
+gray,
+black,
+red, 
+maroon,
+yellow,
+olive,
+lime,
+green,
+aqua,
+teal,
+blue,
+navy,
+fuchsia,
+purple ;
+
+@each $color in $colors {
+
+    .#{$color} {
+      background: $color;
+    }
+  
+    @for $in from 0 through 10 {
+        .#{$color}-#{$in} {
+          $light : $in*5;
+          background: lighten($color, $light);
+        }
+    }
+  }
+  .list {
+    margin: 20px 0 ;
+    .main,
+    .subs {
+      margin: 0;
+      padding: 10px;
+      color: #000;
+    }
+    .show {
+      display: block;
+    }
+    .hide {
+      display: none;
+    }
+  }
+
+.color-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    
+    .color {
+        height: 300px;
+        width: 100%;
+    }
+}

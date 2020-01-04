@@ -1,0 +1,44 @@
+[
+    {
+      "id": "1",
+      "employee_name": "test1576945406128",
+      "employee_salary": "0",
+      "employee_age": "0",
+      "profile_image": "https://placekitten.com/g/900/700"
+    },
+    {
+      "id": "216606",
+      "employee_name": "Chaithanya12212019030054",
+      "employee_salary": "45000",
+      "employee_age": "28",
+      "profile_image": "https://placekitten.com/g/800/600"
+    },
+    {
+      "id": "216610",
+      "employee_name": "Chaithanya12212019030103",
+      "employee_salary": "45000",
+      "employee_age": "28",
+      "profile_image": "https://www.w3schools.com/howto/img_parallax.jpg"
+    },
+    {
+      "id": "216611",
+      "employee_name": "Chaithanya12212019030107",
+      "employee_salary": "45000",
+      "employee_age": "28",
+      "profile_image": "https://www.w3schools.com/howto/img_parallax2.jpg"
+    },
+    {
+      "id": "216613",
+      "employee_name": "Chaithanya12212019030111",
+      "employee_salary": "45000",
+      "employee_age": "28",
+      "profile_image": "https://www.w3schools.com/howto/img_parallax3.jpg"
+    },
+    {
+      "id": "216615",
+      "employee_name": "Chaithanya12212019030112",
+      "employee_salary": "45000",
+      "employee_age": "28",
+      "profile_image": ""
+    }
+]

@@ -1,0 +1,23 @@
+<div class="color-theme">
+    <section class="color-type">
+        <app-color-list (colorWasSelected)="selectedPrimaryColor = $event"></app-color-list>
+        <app-color-list2 (colorWasSelected2)="selectedSecondaryColor= $event"></app-color-list2>
+    </section>
+    <section class="colo-view">
+        <app-color-view
+        [primaryColorDetails]="selectedPrimaryColor"
+        [secondaryColorDetails]="selectedSecondaryColor"
+        ></app-color-view
+            >
+
+        <!-- <app-color-view
+        *ngIf="selectedPrimaryColor; else infoTexttt"
+        [primaryColorDetails]="selectedPrimaryColor"
+        [secondaryColorDetails]="selectedSecondaryColor"
+        ></app-color-view
+            >
+            <ng-template #infoTexttt> 
+                <p>Select color</p>
+            </ng-template> -->
+    </section>
+</div>

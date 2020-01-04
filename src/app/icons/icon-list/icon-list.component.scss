@@ -1,0 +1,6 @@
+.icon-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+}

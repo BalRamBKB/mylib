@@ -1,0 +1,22 @@
+<!-- <div class="color-box">
+    <div class="list" *ngFor="let color of colors;">
+        <p class="main" [ngStyle]="{'background-color':color.colorName}"
+            (click)="clickEvent()"> {{ color.colorName }}</p>
+        <div *ngFor="let numb of color.numbers" 
+            [ngClass]="status ? 'show' : 'hide'">
+            <p class="subs" [style.background-color]="color.colorName + '-' +numb"> 
+                {{color.colorName + '-'+ numb }} 
+            </p>
+        </div>
+    </div>
+</div> -->
+
+<div class="color-box">
+    <div class="list" *ngFor="let color of colors;">
+        <p class="main {{color.colorName}}" 
+        (click)="clickEvent()"> {{ color.colorName }}</p>
+        <div *ngFor="let numb of color.numbers" [ngClass]="status ? 'show' : 'hide'">
+            <p class="subs {{color.colorName + '-' +numb}}"> {{color.colorName + '-'+ numb }} </p>
+        </div>
+    </div>
+</div>

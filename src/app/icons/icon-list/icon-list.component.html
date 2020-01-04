@@ -1,0 +1,6 @@
+<section class="icon-container">
+    <app-icon 
+    *ngFor="let iconElem of iconss"
+    (iconSelected)="onIconSelected(iconElem)"
+    [iconData]="iconElem"></app-icon>
+</section>

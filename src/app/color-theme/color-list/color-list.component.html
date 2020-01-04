@@ -1,0 +1,11 @@
+<div class="color">
+    <h2 class="heading">Primary Color</h2>
+    <div class="colors">
+        <app-color 
+        *ngFor="let colorData of colorsData"
+        (colorSelect)="onColorSelect(colorData)"
+        [colorD]="colorData"></app-color>
+    </div>
+</div>
+
+

@@ -1,0 +1,23 @@
+.color-theme {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 10px;
+    padding: 15px;
+    
+    .color-type {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 5px;
+    }
+
+    
+    @media  only screen and (max-width:768px)  {
+        display: block;
+        padding: 5px;
+    }
+}
+
+// .colo-view {
+//     z-index: -1;
+//   }
+  
